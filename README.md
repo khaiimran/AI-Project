@@ -13,3 +13,4 @@
 # Based on
 * https://ai-facets.org/robust-logo-detection-with-opencv/
 * https://pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-python-opencv/
+* https://github.com/nithiroj/pycon-thailand-2018 (future extension with machine learning?)
