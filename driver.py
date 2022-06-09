@@ -107,7 +107,7 @@ def cam(template):
     
 
 def img(template, image):
-    viz = True
+    viz = False
     template = cv2.imread(template)
     template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
     template = cv2.Canny(template, 50, 200)
@@ -146,7 +146,7 @@ def img(template, image):
             found = (maxVal, maxLoc, r)
     # unpack the bookkeeping variable and compute the (x, y) coordinates
     # of the bounding box based on the resized ratio
-    (_, maxLoc, r) = found
+    (maxVal, maxLoc, r) = found
     (startX, startY) = (int(maxLoc[0] * r), int(maxLoc[1] * r))
     (endX, endY) = (int((maxLoc[0] + tW) * r), int((maxLoc[1] + tH) * r))
     # draw a bounding box around the detected result and display the image
