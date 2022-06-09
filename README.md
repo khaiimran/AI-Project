@@ -1,4 +1,4 @@
-# Group members:
+# Group members
 * Khairul Imran bin Jamalullail SD20058
 * Muhammad Isyraf Azmin bin
 * Nurul Farhanah binti Isha SD20055 
@@ -13,4 +13,7 @@
 # Based on
 * https://ai-facets.org/robust-logo-detection-with-opencv/
 * https://pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-python-opencv/
-* https://github.com/nithiroj/pycon-thailand-2018 (future extension with machine learning?)
+
+# Future project extension
+* with machine learning to add accuracy - https://github.com/nithiroj/pycon-thailand-2018 
+* detect all logos present even if it is not in database
