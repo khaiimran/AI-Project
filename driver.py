@@ -96,10 +96,11 @@ def cam(template):
         (endX, endY) = (int((maxLoc[0] + tW) * r), int((maxLoc[1] + tH) * r))
         # draw a bounding box around the detected result and display the image
         cv2.rectangle(frame, (startX, startY), (endX, endY), (0, 0, 255), 2)
+
+        # accuracy test (might not be implemented)
         cv2.putText(frame, f'accuracy: {maxVal/500000:.4f}%', org=(250, 50),
                     fontFace=cv2.FONT_HERSHEY_COMPLEX_SMALL,
                     fontScale=1, color=(0, 0, 255))
-
         cv2.imshow("Preview", frame)
         if cv2.waitKey(10) == 27:
             break
@@ -150,6 +151,7 @@ def img(template, image):
     (endX, endY) = (int((maxLoc[0] + tW) * r), int((maxLoc[1] + tH) * r))
     # draw a bounding box around the detected result and display the image
     cv2.rectangle(frame, (startX, startY), (endX, endY), (0, 0, 255), 2)
+    # accuracy test (might not be implemented)
     print(image, maxVal/500000,"%")
     cv2.imshow("Image", frame)
     cv2.waitKey(0)
