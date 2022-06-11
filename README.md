@@ -1,6 +1,6 @@
 # Group members
 * Khairul Imran bin Jamalullail SD20058
-* Muhammad Isyraf Azmin bin  SD200
+* Muhammad Isyraf bin Azmin SD20065
 * Nurul Farhanah binti Isha SD20055 
 * Sri Vera Thachayaani A/P Vesnathan SD20057
 * Nur Ra' Izzati binti Zahari SD20001
