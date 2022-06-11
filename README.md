@@ -7,8 +7,8 @@
 
 # .py files
 * main.py - main driver that user interacts
-* ~~driver.py - code that does the processes for either cam or image upload
-* ~~features.py - code that extracts features
+* ~~driver.py - code that does the processes for either cam or image upload~~
+* ~~features.py - code that extracts features~~
 
 # Based on
 * https://ai-facets.org/robust-logo-detection-with-opencv/
