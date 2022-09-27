@@ -10,7 +10,9 @@
 * ~~driver.py - code that does the processes for either cam or image upload~~
 * ~~features.py - code that extracts features~~
 
-To run, just execute main.py
+To run, execute main.py
+Enter '0' to upload image, otherwise it will run using camera. 
+Press Enter to exit.
 
 # Based on
 * https://ai-facets.org/robust-logo-detection-with-opencv/
